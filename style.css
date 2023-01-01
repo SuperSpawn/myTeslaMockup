@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +11,7 @@
     max-width: 2000px;
     margin: auto;
     overflow: auto;
+    font-family: 'Lato', sans-serif;
 }
 
 /*utility classes*/
@@ -43,6 +45,7 @@
 }
 .sticky-div {
     position: sticky;
+    top: 0;
 }
 .pos-abs {
     position: absolute;
@@ -68,7 +71,9 @@
     object-fit: cover;
     object-position:center;
 }
-
+.bold-main-font {
+    font-weight: bold;;
+}
 
 
 .top-section {
@@ -89,8 +94,12 @@
 
 .section2 {
     width: 100%;
-    height: 100%;
+    height: 920px;
     background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/ea753653-02a2-4206-aac5-82a33a0a245d/bvlatuR/std/2880x1800/model-3-hero-a-desktop');
+    background-repeat: no-repeat;
+    background-position: 0 -150px;
+    
+    background-size: cover;
 }
 
 
@@ -106,7 +115,7 @@
 }
 .models-list1 li a {
     text-align: center;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 15px 10px 15px;
 }
 
 .models-list1 li :hover {
@@ -117,4 +126,125 @@
     padding-top: 130px;
 }
 
+.tesla-logo1 {
+    padding-top: 10px;
+    padding-left: 50px;
+    display: block;
+}
+
+.other-header-options ul li a {
+    display: block;
+    padding: 10px 20px 10px 20px;
+}
+
+.other-header-options ul li a:hover {
+    background-color: rgb(80, 86, 95);;
+}
+
+.other-header-options li {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.section1-bottom {
+    margin-top: 540px;
+    margin-left: 33.3%;
+}
+.section1-bottom ul li {
+    padding: 10px;
+    margin: 0 30px;
+}
+
+.section1-bottom ul li .font-xl{
+    font-size: 30px;
+}
+
+.spedometer-section1 {
+    width: 30px;
+    height: 10px;
+}
+
+
+
+.tcl-badge-speedometer__outer-circle {
+    z-index: 2;
+    width: 40px;
+    position: absolute;
+    bottom: 50px;
+    left: calc(33.3% + 15px);
+    fill: white;
+    z-index: 1;
+}
+.tcl-badge-speedometer__inner-circle {
+    width: 31px;
+    position: absolute;
+    bottom: 50px;
+    left: calc(33.3% + 19px);
+    fill: rgb(125, 125, 125);
+    z-index: 0;
+}
+.tcl-badge-speedometer__needle {
+    width: 5px;
+    position: absolute;
+    bottom: 50px;
+    left: calc(33.3% + 32px);
+    fill: white;
+}
+
+
+.buy-me-box a {
+    border: 3px solid white;
+    padding: 10px 60px;
+    border-radius: 5px;
+}
+
+.buy-me-box a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.section1-bottom ul li .buy-me-box {
+    margin-top: 16px;
+}
+
+.message-box-bottom {
+    position: fixed;
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    bottom: 60px;
+    right: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgb(240, 240, 240);
+    text-align: center;
+}
+
+.message-box-bottom svg {
+    margin: 13px 0px 0px 12px;
+}
+
+
+
+
+.msg-bottom svg {
+    fill: black;
+}
+
+.safety-card {
+    margin-top: 100px;
+    width: 300px;
+    margin-right: 20px;
+}
+.safety-card h2 {
+    font-size: 30px;
+}
+.safety-card ul {
+    margin-top: 10px;
+}
+.safety-card ul li {
+    margin-top: 10px;
+}
 
